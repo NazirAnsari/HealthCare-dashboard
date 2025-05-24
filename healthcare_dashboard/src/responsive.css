@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+    .sidebar_icon {
+        visibility: visible;
+    }
+
+    .siderbar_title {
+        visibility: hidden;
+    }
+
+    .siderbar_title1 {
+        visibility: hidden;
+    }
+
+    .sidebar h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .search-bar {
+        width: 200px;
+    }
+
+    .dashboard-content {
+        flex-direction: column;
+    }
+
+    .anatomy-section,
+    .rightcontainter {
+        flex: 1 1 100%;
+    }
+
+    .dashboard-content> :first-child {
+        width: 100%;
+    }
+
+    .rightcontainter {
+        width: 100%;
+    }
+
+    .app-container> :nth-child(1) {
+        width: 18%;
+    }
+
+    .nav-list li {
+        visibility: hidden;
+        ;
+    }
+
+    .nav-list li span {
+        visibility: visible;
+    }
+}

@@ -1,0 +1,69 @@
+/* already defined */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  padding: 0.8rem 0.9rem;
+  width: 404px;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.notification-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #9ca3af;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-avatar {
+  font-size: 1.2rem;
+  background-color: #1e7598;
+  padding: 0.4rem 0.4rem;
+  border: none;
+  border-radius: 12px;
+}
+
+.add-button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.5rem 0.9rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

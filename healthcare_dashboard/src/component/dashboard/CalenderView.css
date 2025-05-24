@@ -1,0 +1,124 @@
+.calendar-view {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.calendar-view h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #111827;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+}
+
+.day-header {
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #6b7280;
+}
+
+.calendar-day {
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    padding: 0.5rem;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.day-number {
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 0.3rem;
+}
+
+.appointments {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.appt-time {
+    background-color: #3b82f6;
+    color: white;
+    padding: 2px 6px;
+    font-size: 0.7rem;
+    border-radius: 6px;
+}
+
+.appointments-sec {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 2.5rem 0 0 0;
+    margin-bottom: 1rem;
+    color: white;
+    gap: 10px;
+}
+
+.appointment-section {
+    background-color: #5a5ae9;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.header-appointment-anatomy {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.header-appointment-anatomy .size-antamoy-label {
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    gap: 1rem;
+}
+
+.appointment-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #dedeff;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 5px;
+}
+
+.appointment-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.time {
+    color: #666;
+    font-size: 0.9rem;
+}
