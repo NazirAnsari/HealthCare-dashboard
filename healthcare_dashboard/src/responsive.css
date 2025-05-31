@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1027px) {
     .sidebar_icon {
         visibility: visible;
     }
@@ -47,5 +47,37 @@
 
     .nav-list li span {
         visibility: visible;
+    }
+}
+
+@media (max-width: 600px) {
+    .anatomy-left-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .appointment-card {
+        padding: 6px;
+    }
+
+    .label_leg {
+        bottom: 548px;
+    }
+
+    .calendar-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 520px) {
+    .card {
+        flex-direction: column;
+        padding: 10px;
+        padding-left: 0px;
+    }
+
+    .sidebar h3 {
+        font-size: 0.65rem;
     }
 }
